@@ -15,8 +15,12 @@
  (libraries
   base
   expect_test_helpers_core.expect_test_helpers_base
+  semver
   semver_command
   stdio)
  (inline_tests)
  (preprocess
   (pps ppx_jane ppx_js_style -check-doc-comments)))
+
+(cram
+ (deps %{bin:semver-command}))

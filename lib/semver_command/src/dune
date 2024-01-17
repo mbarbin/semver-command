@@ -11,6 +11,6 @@
   Base
   -open
   Stdio)
- (libraries base core.command stdio)
+ (libraries base core.command semver stdio)
  (preprocess
   (pps ppx_jane ppx_js_style -check-doc-comments)))

@@ -8,8 +8,8 @@ homepage: "https://github.com/mbarbin/semver-command"
 doc: "https://mbarbin.github.io/semver-command/"
 bug-reports: "https://github.com/mbarbin/semver-command/issues"
 depends: [
+  "dune" {>= "3.12"}
   "ocaml" {>= "5.1"}
-  "dune" {>= "3.12" & >= "3.12"}
   "base" {>= "v0.16" & < "v0.17"}
   "command-unix-for-opam" {>= "0.0.1"}
   "core" {>= "v0.16" & < "v0.17"}

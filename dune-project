@@ -18,7 +18,6 @@
 (package
  (name semver-command)
  (synopsis "A cli to run ocaml-semver functions from the command line")
- (description "A cli to run ocaml-semver functions from the command line")
  (depends
   (ocaml
    (>= 5.1))

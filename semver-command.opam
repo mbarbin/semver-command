@@ -16,6 +16,7 @@ depends: [
   "expect_test_helpers_core" {with-test & >= "v0.16" & < "v0.17"}
   "ppx_jane" {>= "v0.16" & < "v0.17"}
   "ppx_js_style" {>= "v0.16" & < "v0.17"}
+  "semver" {>= "0.2.1"}
   "stdio" {>= "v0.16" & < "v0.17"}
   "odoc" {with-doc}
 ]

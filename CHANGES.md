@@ -1,9 +1,11 @@
-## unreleased
+## Unreleased
 
 ### Added
 
 - Simple command to compare two versions.
 
 ### Changed
+
 ### Fixed
+
 ### Removed

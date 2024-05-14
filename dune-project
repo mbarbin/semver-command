@@ -20,7 +20,7 @@
  (synopsis "A cli to run ocaml-semver functions from the command line")
  (depends
   (ocaml
-   (>= 5.1))
+   (>= 5.2))
   (base
    (and
     (>= v0.17)
